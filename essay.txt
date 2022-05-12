@@ -1,1 +1,99 @@
-oooooooo              aaaaaaaaaaaa oooooooooooo aaaaaaaaa                  hhhhhhhhhhhhh
+Josiah Hamm
+Doctor Rosenthal
+CE ENG 122 english comp
+5/11/2022
+
+The Birth of JavaScript and the Evolution of the Web
+
+
+In the early days of the internet, around 1995 through 1996, internet browsers were relatively new technology, and advancements were happening very quickly. In an article titled, “The History of JavaScript: Everything You Need to Know,” TJ DeGroat explains that the two main browsers at the time were Netscape Navigator, and Microsoft’s Spyglass Mosaic. The two companies were locked in what would come to be known as the “Browser Wars” (DeGroat). According to Jay Hoffmann’s article, “The History of the Browser Wars: When Netscape Met Microsoft,” Netscape had a clear advantage in 1995, holding 80% of the browser market share. However, the funding and manpower behind the tech giant of Microsoft was still a force to be reckoned with. With Netscape’s IPO coming up soon, the company needed something big to prove their dominance over the other browsers. Thankfully, Netscape had an idea in mind. A BigCommerce article, titled, “What is JavaScript, and why is it important?”, explains a major drawback in the early web, stating that, “At the time, Web pages were static, offering little user interaction beyond clicking links and loading new pages.” This was a serious problem, and Netscape aimed to fix it, according to the article. Although JavaScript was designed to be a small and unimportant addition to Java, its beginner-friendly and intuitive design helped it exceed expectations, beat out the competition and become the immensely popular and extraordinarily versatile language that it is today.
+
+One of the main players behind JavaScript’s growth and development is Brendan Eich. In a self-published document titled, “JavaScript: The First 20 Years,”  Allen Wirfs-Brock and Brendan Eich explain in depth the history of JavaScript, including pre-history regarding the decisions made within Netscape, and the people involved. According to the document, in early 1995, a young man named Brendan Eich was recruited to work for Netscape. He expected to be working on implementing the Scheme programming language into the browser, but that would not turn out to be the case (Wirfs-Brock and Eich 7). Upon entering, he found the company fighting a complex, multi-faceted war against Microsoft (Wirfs-Brock and Eich 7). 
+
+When choosing a web scripting language, JavaScript was not even considered.
+Even though the Netscape team knew that they wanted to make webpages interactive, they would first have to select a language for developers to write web page scripts with (Wirfs-Brock and Eich 7). There were multiple language candidates for web pages, including research languages like Scheme, and Unix languages like Python. However,  At the same time, Sun Microsystems executed an extreme marketing campaign for their new Java language. Communication immediately began between the two companies to integrate Java with the Netscape browser (Wirfs-Brock and Eich 6). A screenshot taken of Netscape’s “About” page in 1995 states that the current release of Netscape (2.01) is “Java compatible”, and “contains Java™ software.” According to the Oracle corporation, a subsequent owner of Java, This integration allowed for the creation of Java “applets,” which were the first instance of dynamic webpage behavior. Regardless of this small success, some Netscape employees saw problems and limitations with the current system (Wirfs-Brock and Eich 7). 
+Java was the first language to be integrated into the web. JavaScript's implementation did not occur until afterwards.
+
+Java applets had issues that JavaScript solved.
+To integrate an applet into a webpage, one would begin by adding an “applet” HTML element into the page, then linking the applet’s source code with a source attribute on the applet element (Oracle). Java applets had a few advantages, including cross-compatibility with Windows, Linux, and Macintosh machines, and ease of debugging for developers, but there were also many disadvantages (Oracle). Applets relied on the large and complex Java Runtime Environment, which would need to be installed in order to run applets (Oracle). Applets would also not run on IOS or Android devices (Oracle). Additionally, applets had a complex security structure. Applets used a concept known as certification signing (Oracle). By default, an app ran in a “sandbox.”  According to Christopher Steel’s book, “Core Security Patterns: Best Practices and Strategies for J2EE, Web Services, and Identity Management,” unsigned applets had no access to the user’s device file system, and could only communicate with their parent server. If an application wanted to do anything more than this, the developers would have to prove to a third party that their app contained no malware, and assuming that the application passed, they would receive a signed certificate (Steel 2). Once a computer verified the authority of an app’s certificate, the applet would receive all the rights of a regular program, including full control over the file system (Steel 2). The system may have temporarily worked for the small web, but was not a scalable solution. 
+Although java applets solved some problems of the static web, more innovation, some still persisted and java was incapable of making the fundamental changes needed to grow with the expanding web
+
+Java’s problems made JavaScript necessary.
+Java is a very verbose language, and not very conducive to beginner programmers (Wirfs-Brock and Eich 7).  To simply make the computer say ‘hello,’ one would have to create a static main class, and then fill it with a public static void method called “Main” with 2 parameters using static type definition (Wirfs-Brock and Eich 7). For comparison, smaller scripting languages such as Python only require one line of code for such a task (Wirfs-Brock and Eich 7). After some discussion, both Netscape and Sun decided that it was in their best interest to pick a new, more beginner-friendly language (Wirfs-Brock and Eich 7). 
+
+Rapid strategizing inside Netscape to choose a scripting language severely handicapped Scheme, Perl, Python, TCL, and Visual Basic as not viable due to business interests and/or time to market considerations. The only approach considered viable by senior managers at Netscape and Sun, notably Marc Andreessen and Sun’s Bill Joy, was to design and implement a little language to complement Java. (Wirfs-Brock and Eich 7)
+
+With the deadline looming, the project was code-named Mocha, and work on the language began (Wirfs-Brock and Eich 8).
+Java failed to accomplish many of the basic requirements of a web scripting language, making JavaScript’s rise to power inevitable.
+
+JavaScript had a very irregular origin.
+In ten consecutive days in May 1995, Brendan Eich prototyped the first version of Mocha, which was a minimalist implementation into the Netscape 2 pre-alpha browser (Wirfs-Brock and Eich 8). After ten days, he presented his creation to the entire company (Wirfs-Brock and Eich 8). His prototype was a major success, and caused a great deal of jubilation in the company. Eich spent the majority of the summer creating APIs (application programming interfaces) that would allow Mocha to interface with the browser and web pages. A screenshot taken of Mocha at the time highlights the window.alert() function, which allows Mocha programs to create a popup box on the user’s screen. According to a Hack Reactor article, titled, “The history of JavaScript,”  Mocha was initially renamed to LiveScript, and then eventually changed to its final name of JavaScript. With its origin story complete, it was finally ready to be released to the world.
+
+The evidence suggests that Netscape and Sun Microsystems wanted Java to remain the main language of the web.
+On December 4th, 1995, Netscape announced JavaScript. According to their archived joint press release with Sun Microsystems, JavaScript would be, “…an open, cross-platform object scripting language for the creation and customization of applications on enterprise networks and the Internet.” Even though the two languages were extraordinarily different, the two companies wanted to maintain their Java-JavaScript brand linkage, even stating that the new language would serve as a “complement to Java for easy online application development” (Wirfs-Brock and Eich 8).  The new scripting language would be capable of dynamically changing the content of a webpage by referring to it as an object, later coined the document-object-model or DOM (Wirfs-Brock and Eich 8). 
+Even in the dawn of JavaScript’s takeover, Sun was still adamant that Java could be a viable language for the web.
+
+JavaScript uses a variety of features, giving it extreme versatility, power, and ease of use.
+In a YouTube video titled, “What is JavaScript: Brendan Eich explains,” Eich explains some abilities of JavaScript and his reasoning behind creating them. In the video, he explains how he made the language to be “very easy to use, because everyone was creating a webpage in the 90s 00:00:09)”.  Eich also speaks of how JavaScript is very approachable, and has an interesting property that allows developers to write and copy little snippets of JavaScript code that integrate well with pre-existing code, regardless of size or complexity. Netscape and Sun both required that JavaScript look like Java, resulting in similar syntax between the two languages. Unlike Java, JavaScript is a scripting language, meaning that it consists of declarations, such as setting a variable to a numerical value (Wirfs-Brock and Eich 8). JavaScript is also designed to be an object-oriented language without classes (Wirfs-Brock and Eich 8). In JavaScript, objects are collections of key-value pairs, where the values can contain many data types, including a string of characters, a number, a list, or even another object (Wirfs-Brock and Eich 8). JavaScript’s freedom from classes allowed Eich to borrow things from other languages, such as global functions and event handlers, which both prove extremely useful (Wirfs-Brock and Eich 8).
+JavaScript uses a nice blend of new and old features, which helps it accomplish many tasks.
+
+The creation and widespread use of JavaScript made applets obsolete. 
+According to a Java blog update titled,“Moving to a Plugin-Free Web”, written by Dalibor Topic, Many browser vendors had eliminated or announced plans to remove standards-based plugin support by late 2015, making it impossible to embed Java, and other plugin-based technologies.  “With modern browser vendors working to restrict and reduce plugin support in their products, developers of applications that rely on the Java browser plugin need to consider alternative options such as migrating from Java Applets. ” According to the blog post, Oracle plans to deprecate the applet plugin in Java Development Kit 9. 
+The depreciation of java applets manifested JavaScript’s victory over  other web scripting options.
+
+Today, JavaScript is the world’s most popular language, and is applied to many use cases. Adarsh Verma’s article, “JavaScript Is The Most Popular Programming Language: Stack Overflow Survey”, explores the most used languages as reported by the users of a programming site called stack overflow in 2019. The article reports that JavaScript is the most used language, with 67.8% of respondents using it. For comparison, the second most popular language is Python, with a 41.7% use ratio.  Due to Its popularity, JavaScript has developed many new uses. The most popular being the Node.js runtime environment. According to the “about” Node.js  page, Node.js is “an asynchronous event-driven JavaScript runtime … designed to build scalable network applications.” In simple terms, The webpage explains how JavaScript can be used to do traditionally unusual tasks like host web servers, write files, and work with databases.
+JavaScript, a language designed to be primarily inconsequential and with little to no importance, managed to prove itself and go on to become the most popular and widely used programming language in the world. JavaScript’s rise to stardom highlights how even the most unlikely candidates can dominate markets, defeat tech giants, and adapt to new uses. In the words of Brendan Eich, “If the web can be evolved to include the missing APIs and have better performance, [developers] won't need to go beyond the web.”
+Works Cited
+
+
+“About | Node.js.” Node.js,
+nodejs.org/en/about/. Accessed 11 May 2022.
+DeGroat, T.J. “The History of JavaScript: Everything You Need to Know.” Springboard Blog, 
+Springboard, 31 Mar. 2021, https://www.springboard.com/blog/data-science/history-of-javascript/. Accessed 11 May 2022. 
+Hoffmann, Jay. “The History of the Browser Wars: When Netscape Met Microsoft.” The History of the
+Web, 19 June 2017,
+https://thehistoryoftheweb.com/browser-wars/. Accessed 11 May 2022. 
+Oracle, “Applets.” Applets, 
+www.oracle.com/java/technologies/applets.html. Accessed 11 May 2022. 
+Oracle, “Lesson: Java Applets.” Lesson: Java Applets,
+https://docs.oracle.com/javase/tutorial/deployment/applet/index.html. Accessed 11 May 2022. 
+“Press Release.” Press Release, 1995, 
+https://web.archive.org/web/20070916144913/https://wp.netscape.com/newsref/pr/newsrelease67.html . Accessed 11 May 2022. 
+“Screenshot of Netscape's ‘about’ Page.” netscape2, 1995, 
+https://images.ctfassets.net/23aumh6u8s0i/3ZjDWZzNKi6NVyDqGUqFW6/0d0ff1aba4068d7ca7fbfc6f4ee4a92f/netscape2 . Accessed 11 May 2022. 
+Steel, Christopher. Core Security Patterns: Best Practices and Strategies for J2EE, Web Services, and
+Identity Management. Pearson, 14 Oct, 2005.
+Topic, Dalibor.“Moving to a Plugin-Free Web.” Oracle, 27 Jan. 2016,
+https://blogs.oracle.com/java/post/moving-to-a-plugin-free-web. Accessed 11 May 2022. 
+“The history of JavaScript.” Hack Reactor, 28 Feb. 2022,
+www.hackreactor.com/blog/the-history-of-javascript. Accessed 11 May 2022.
+Verma, Adarsh, “JavaScript Is The Most Popular Programming Language: Stack Overflow Survey.” 
+FossBytes, 10 April 2019,
+fossbytes.com/javascript-most-popular-programming-language-stack-overflow/. Accessed 11 May 2022. Accessed 11 May 2022.
+“What is JavaScript, and why is it important?.” BigCommerce,
+www.bigcommerce.com/ecommerce-answers/what-JavaScript-and-why-it-important/. Accessed 11 May 2022.
+“What is JavaScript? Creator Brendan Eich explains.” IDG TechTalk, 18 Feb. 2019,
+https://www.youtube.com/watch?v=ICfxulXvhsk&t=1s. Accessed 11 May 2022.
+Wirfs-Brock, Allen, and Brendan Eich. “JavaScript: The First 20 Years.” Association for Computing 
+Machinery, 2020, https://dl.acm.org/doi/pdf/10.1145/3386327. Accessed 11 May 2022.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
